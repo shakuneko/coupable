@@ -33,7 +33,7 @@ top: 0px;
  
 .coupable{
   position: absolute;
-  left: 41%;
+  left: 40%;
   overflow: visible;
   width: 430px;
   white-space: nowrap;
@@ -320,7 +320,15 @@ color:rgba(0,0,0,0);
           animation-delay: 30s;
 }
 
-
+.music{
+  position:absolute;
+  top:165px;
+  left:10px;
+  width:292px;
+  height:100px;
+  z-index:2;
+  
+}
  
 .h1{
   position:absolute;
@@ -400,6 +408,24 @@ color:rgba(0,0,0,0);
   height:588px;
   z-index:1;
  }
+ 
+
+ .pin img {
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.pin img:hover {
+  transform: scale(0.9);
+}
+
+.pin1 img {
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.pin1 img:hover {
+  transform: scale(1.2);
+}
+
  .halloween{
   position:absolute;
   top:90px;
@@ -456,6 +482,20 @@ color:rgba(0,0,0,0);
   color:#F5E2C8;
   font-family: Special Elite;
   z-index:2;
+}
+.pin2 img {
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.pin2 img:hover {
+  transform: scale(0.9);
+}
+.pin3 img {
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.pin3 img:hover {
+  transform: scale(1.1);
 }
 .matcha{
   position:absolute;

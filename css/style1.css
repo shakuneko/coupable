@@ -33,7 +33,7 @@ top: 0px;
  
 .coupable{
   position: absolute;
-  left: 41%;
+  left: 40%;
   overflow: visible;
   width: 430px;
   white-space: nowrap;
@@ -229,7 +229,15 @@ color:rgba(0,0,0,0);
     transform: scale(0.95, 1.05);
   }
 }
- 
+.music{
+  position:absolute;
+  top:165px;
+  left:10px;
+  width:292px;
+  height:100px;
+  z-index:2;
+  
+}
 .AD {
   width: 950px;
   height: 448px;

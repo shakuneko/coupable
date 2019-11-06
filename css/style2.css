@@ -33,7 +33,7 @@ top: 0px;
  
 .coupable{
   position: absolute;
-  left: 41%;
+  left: 40.45%;
   overflow: visible;
   width: 430px;
   white-space: nowrap;
@@ -44,8 +44,8 @@ top: 0px;
   }
 .je{
   position: absolute;
-  left: 44%;
-  top:9%;
+  left: 44.48%;
+  top:11%;
   overflow: visible;
   
   }
@@ -53,7 +53,6 @@ top: 0px;
   #je span{
     text-indent:-9999px;
   }
-
   
 .f1{
   position:absolute;
@@ -263,13 +262,31 @@ color:rgba(0,0,0,0);
   top:745px;
   right:1400px;
   left:65px;
-}
  
+}
+.music{
+  position:absolute;
+  top:165px;
+  left:10px;
+  width:292px;
+  height:100px;
+  z-index:2;
+  
+}
+.video{
+  position:absolute;
+  top:330px;
+  left:1100px;
+  width: 750px;
+  height:700px;
+  z-index:1;
+ }
 /*First Step*/
 .classroom{
   position:absolute;
   top:1100px;
   left:255px;
+  
 }
 .line1{
   position:absolute;
@@ -290,6 +307,33 @@ color:rgba(0,0,0,0);
   width: 589px;
   height:156px;
 }
+.t1{
+  position:absolute;
+  top:1330px;
+  left:1036px;
+}
+
+.t1:hover {
+  cursor: pointer;
+  animation: icon2 0.5s;
+}
+
+@keyframes icon2 {
+  0%,
+  100% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
+}
+
 .first{
   position:absolute;
   color:#FFF1E7;
@@ -342,13 +386,40 @@ color:rgba(0,0,0,0);
   width: 589px;
   height:156px;
 }
+.t2{
+  position:absolute;
+  top:1920px;
+  left:617px;
+}
+
+.t2:hover {
+  cursor: pointer;
+  animation: icon2 0.5s;
+}
+
+@keyframes icon2 {
+  0%,
+  100% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
+}
+
 .second{
   position:absolute;
   color:#FFF1E7;
   font-size: 50px;
   font-family:Special Elite;
   top:2030px;
-  left:540px;
+  left:520px;
   z-index:2;
  
 }
@@ -359,7 +430,7 @@ color:rgba(0,0,0,0);
   text-align: center;
   font-family:Special Elite;
   top:2108px;
-  left:310px;
+  left:290px;
  
 }
 .green{
@@ -393,6 +464,31 @@ color:rgba(0,0,0,0);
   height:156px; 
   top:2590px;
   left:1043px;
+}
+.t3{
+  position:absolute;
+  top:2510px;
+  left:1036px;
+}
+.t3:hover {
+  cursor: pointer;
+  animation: icon2 0.5s;
+}
+
+@keyframes icon2 {
+  0%,
+  100% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
 }
 .third{
   position:absolute;
